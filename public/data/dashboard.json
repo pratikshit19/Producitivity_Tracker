@@ -1,0 +1,14 @@
+{
+  "stats": [
+    { "title": "Tasks Completed", "value": 124 },
+    { "title": "Hours Logged", "value": 76 },
+    { "title": "Efficiency (%)", "value": 89 },
+    { "title": "Projects", "value": 5 }
+  ],
+  "chartData": [
+    { "name": "Week 1", "efficiency": 75 },
+    { "name": "Week 2", "efficiency": 82 },
+    { "name": "Week 3", "efficiency": 88 },
+    { "name": "Week 4", "efficiency": 92 }
+  ]
+}

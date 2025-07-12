@@ -1,0 +1,12 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss";
+/* Optional font */
+body {
+  font-family: 'Satoshi', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+}
