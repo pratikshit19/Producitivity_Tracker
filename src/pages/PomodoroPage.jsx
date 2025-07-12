@@ -115,7 +115,7 @@ export default function PomodoroPage() {
   const percentage = (timeLeft / (duration * 60)) * 100;
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-12">
       <h2 className="text-3xl font-bold mb-6">Pomodoro Timer</h2>
 
       <div className="mb-4">

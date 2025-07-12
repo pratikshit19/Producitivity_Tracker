@@ -3,7 +3,7 @@ import FeatureCard from "../components/FeatureCard";
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen w-full bg-black mx-auto p-4">
+    <div className="min-h-screen w-full bg-black mx-auto p-6">
       <Header />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
         <FeatureCard
