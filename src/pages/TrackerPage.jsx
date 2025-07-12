@@ -26,7 +26,7 @@ export default function TrackerPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-16 mx-auto">
+    <div className="min-h-[100dvh] bg-gray-900 text-white p-6 mx-auto">
       <h2 className="text-3xl font-bold mb-6 text-center">Live Tracker</h2>
       <div className="bg-gray-800 p-4 rounded mb-6">
         <div className="mb-4">
