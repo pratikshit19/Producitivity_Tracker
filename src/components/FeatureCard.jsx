@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 export default function FeatureCard({ title, description, link, image }) {
   return (
     <Link to={link}>
-      <div
-        className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer h-48 flex items-end"
-      >
+      <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer h-48 flex items-end">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center"

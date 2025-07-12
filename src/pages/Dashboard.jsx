@@ -1,6 +1,11 @@
 import Header from "../components/Header";
 import FeatureCard from "../components/FeatureCard";
 
+// ✅ Import images properly
+import todoImg from "../assets/images/todo.jpg";
+import trackerImg from "../assets/images/abstract2.jpg";
+import pomodoroImg from "../assets/images/abstract1.jpg";
+
 export default function Dashboard() {
   return (
     <div className="min-h-screen w-full bg-black mx-auto p-6">
@@ -10,19 +15,19 @@ export default function Dashboard() {
           title="To-Do List"
           description="Manage your daily tasks and stay organized."
           link="/todo"
-          image="/assets/images/todo.jpg"
+          image={todoImg} // ✅ Use imported image
         />
         <FeatureCard
           title="Live Tracker"
           description="Track your activities in real-time."
           link="/tracker"
-          image="/assets/images/abstract2.jpg"
+          image={trackerImg} // ✅ Use imported image
         />
         <FeatureCard
           title="Pomodoro Timer"
           description="Boost productivity with focused sessions."
           link="/pomodoro"
-          image="/assets/images/abstract1.jpg"
+          image={pomodoroImg} // ✅ Use imported image
         />
       </div>
     </div>
